@@ -1,3 +1,5 @@
+package com.hrqa.javaproxyserver;
+
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -78,7 +80,7 @@ public class RequestHandler implements Runnable {
 
 		// Parse out URL
 
-		System.out.println("Reuest Received " + requestString);
+		System.out.println("Request Received " + requestString);
 		// Get the Request type
 		String request = requestString.substring(0,requestString.indexOf(' '));
 
@@ -390,6 +392,7 @@ public class RequestHandler implements Runnable {
 					"\r\n";
 			proxyToClientBw.write(line);
 			proxyToClientBw.flush();
+			System.out.println(urlString + "\n" + line);
 			
 			
 			

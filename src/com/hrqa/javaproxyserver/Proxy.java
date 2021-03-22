@@ -1,9 +1,7 @@
+package com.hrqa.javaproxyserver;
 /*
- * 	Student:		Stefano Lupo
- *  Student No:		14334933
- *  Degree:			JS Computer Engineering
- *  Course: 		3D3 Computer Networks
- *  Date:			02/04/2017
+ * 	Presenter:		Hernando Rafael Quevedo Amaris
+ *  Date:			03/22/2021
  */
 
 import java.io.File;
